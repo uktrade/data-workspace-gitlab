@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 gitlab/gitlab-ce:13.8.8-ce.0
+FROM --platform=linux/amd64 gitlab/gitlab-ce:13.12.15-ce.0
 
 RUN \
 	apt-get update && \
