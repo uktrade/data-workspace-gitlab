@@ -1,4 +1,5 @@
-FROM --platform=linux/amd64 gitlab/gitlab-ce:13.12.15-ce.0
+ARG TAG
+FROM --platform=linux/amd64 gitlab/gitlab-ce:$TAG
 
 RUN \
 	apt-get update && \
