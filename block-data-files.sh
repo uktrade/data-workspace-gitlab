@@ -6,8 +6,6 @@
 disallowed_extensions="csv|tsv|xlsx|xls|parquet|json|xml|png|pdf|rdata"
 disallowed_files=""
 
-echo "checking for data files in your commits"
-
 while read oldrev newrev refname; do
   # Skip branch deletes
   if [ "$newrev" = "0000000000000000000000000000000000000000" ]; then
