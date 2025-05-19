@@ -3,7 +3,7 @@
 # this pre-receive hook checks for data files within all commits during push
 # and posts a warning message with listing all suspected files
 
-disallowed_extensions="csv|tsv|xlsx|xls|parquet|json|xml|png|pdf|rdata"
+disallowed_extensions="csv|tsv|xlsx|xls|parquet|json|xml|png|pdf|rdata|rds"
 disallowed_files=""
 
 while read oldrev newrev refname; do
