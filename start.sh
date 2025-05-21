@@ -33,4 +33,4 @@ chmod +x /etc/gitlab/post-reconfigure.sh
 
 export GITLAB_POST_RECONFIGURE_SCRIPT=/etc/gitlab/post-reconfigure.sh
 
-/assets/wrapper
+/assets/init-container
